@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.article {
+    display: flex;
+    align-items: center; /* Centra verticalmente los contenidos */
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Evita que los contenidos sobresalgan del artículo */
+}
+
+.image-container {
+    flex: 1; /* La imagen ocupará el 50% del ancho del artículo */
+}
+
+.text-container {
+    flex: 3; /* El texto ocupará el 50% restante del ancho del artículo */
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+}
