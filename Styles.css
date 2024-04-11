@@ -58,3 +58,34 @@ img {
     height: auto;
     display: block; /* Elimina el espacio extra debajo de la imagen */
 }
+.article.odd {
+    flex-direction: row-reverse; /* Invierte la dirección de los elementos en artículos impares */
+}
+
+/* Estilos del slider */
+.slider-container {
+    width: 80%; /* Establecemos un ancho máximo para el contenedor */
+    max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
+    overflow-x: auto; /* Permitimos el desplazamiento horizontal */
+    white-space: nowrap; /* Evitamos que las imágenes se rompan en múltiples líneas */
+    margin: 0 auto; /* Esto centrará horizontalmente el slider */
+}
+
+.slider-container .slide {
+    display: inline-block; /* Hacemos que los slides se muestren en línea */
+    vertical-align: top; /* Alineamos los slides en la parte superior */
+    margin-right: 10px; /* Añadimos un espacio entre los slides */
+}
+
+.slider {
+    text-align: center; /* Centra horizontalmente el contenido */
+}
+
+.slider h2 {
+    margin-bottom: 20px;
+}
+
+.slide img {
+    max-width: 200px; /* Cambia este valor según el tamaño deseado */
+    height: auto;
+}
