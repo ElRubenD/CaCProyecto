@@ -8,9 +8,9 @@ header {
     background-color: black;
     color: white;
     padding: 20px;
-    display: flex; /* Convertir el encabezado en un contenedor flexible */
-    justify-content: space-between; /* Distribuir el espacio entre los elementos hijos */
-    align-items: center; /* Alinear verticalmente los elementos al centro */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 header img {
@@ -22,11 +22,11 @@ header img {
 header img,
 header h1 {
     display: inline-block;
-    vertical-align: middle; /* Esto alinea verticalmente los elementos */
+    vertical-align: middle;
 }
 
 header h1 {
-    margin: 0; /* Quita el margen predeterminado del título */
+    margin: 0;
 }
 
 nav ul {
@@ -60,11 +60,11 @@ footer {
 
 .article {
     display: flex;
-    align-items: center; /* Centra verticalmente los contenidos */
+    align-items: center;
     margin: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    overflow: hidden; /* Evita que los contenidos sobresalgan del artículo */
+    overflow: hidden;
 }
 
 .image-container {
@@ -79,11 +79,11 @@ footer {
 img {
     max-width: 100%;
     height: auto;
-    display: block; /* Elimina el espacio extra debajo de la imagen */
+    display: block;
 }
 
 .article.odd {
-    flex-direction: row-reverse; /* Invierte la dirección de los elementos en artículos impares */
+    flex-direction: row-reverse;
 }
 
 /* Estilos del slider */
